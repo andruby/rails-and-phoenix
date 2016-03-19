@@ -17,6 +17,7 @@ defmodule Talks.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    resources "/talks", TalkController
   end
 
   # Other scopes may use custom stacks.
