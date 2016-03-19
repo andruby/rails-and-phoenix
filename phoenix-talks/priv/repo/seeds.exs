@@ -9,3 +9,12 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+alias Talks.Repo
+alias Talks.Talk
+
+Repo.insert! %Talk{presenter: "Marin Jankovski", title: "How we package and distribute GitLab"}
+Repo.insert! %Talk{presenter: "Anthony Meirlaen", title: "How we love messages queues @engagor"}
+Repo.insert! %Talk{presenter: "Andrew Fecheyr", title: "Introduction to Elixir"}
+Repo.insert! %Talk{presenter: "Bert Goethals", title: "RuleTables and RuleTrees"}
+
