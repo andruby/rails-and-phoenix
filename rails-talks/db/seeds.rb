@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Talk.create!(presenter: "Marin Jankovski", title: "How we package and distribute GitLab")
+Talk.create!(presenter: "Anthony Meirlaen", title: "How we love messages queues @engagor")
+Talk.create!(presenter: "Andrew Fecheyr", title: "Introduction to Elixir")
+Talk.create!(presenter: "Bert Goethals", title: "RuleTables and RuleTrees")
